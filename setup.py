@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='scrapy-djangoitem',
-    version='1.1.1',
+    name='curaffe-scrapy-djangoitem',
+    version='1.1.2',
     url='https://github.com/scrapy-plugins/scrapy-djangoitem',
     description='Scrapy extension to write scraped items using Django models',
     long_description=open('README.rst').read(),
@@ -26,6 +26,7 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.8',
         'Topic :: Utilities',
         'Framework :: Django',
         'Framework :: Scrapy',
