@@ -4,10 +4,10 @@ from setuptools import setup, find_packages
 setup(
     name='curaffe-scrapy-djangoitem',
     version='1.1.2',
-    url='https://github.com/scrapy-plugins/scrapy-djangoitem',
+    url='https://github.com/curaffe/scrapy-djangoitem',
     description='Scrapy extension to write scraped items using Django models',
     long_description=open('README.rst').read(),
-    author='Scrapy developers',
+    author='Curaffe',
     license='BSD',
     packages=find_packages(exclude=('tests', 'tests.*')),
     include_package_data=True,
